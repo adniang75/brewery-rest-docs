@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/adniang75/brewery-rest-docs/tree/master.svg?style=svg)](https://circleci.com/gh/adniang75/brewery-rest-docs/tree/master)
 # Brewery Microservice for Spring REST Docs project
 
 This repository contains source code examples used to support my on-line courses about the Spring Framework.

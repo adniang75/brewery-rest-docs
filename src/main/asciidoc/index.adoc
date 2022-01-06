@@ -4,21 +4,26 @@ Spring Framework Guru;
 :icons: font
 :source-highlighter: highlightjs
 
-Sample Application demonstrating how to use Spring REST Docs with JUnit 5.
+`Brewery Beer Manager Service` is a Microservice for managing beer inventory.
 
-`BeerControllerTest` makes call to very simple service and produces documentation snippets.
+The service allows managing:
+
+- Beer creation
+- Beer update
+- Beer deletion
+- Beer request by its ID
 
 == Get by ID
 
-One showing how to make a request using cURL
+Get a specific Beer by its ID using cURL
 
 include::{snippets}/v1/beer-get-by-id/curl-request.adoc[]
 
-One showing how to make a request using HTTP
+Get a specific Beer by its ID using HTTP
 
 include::{snippets}/v1/beer-get-by-id/http-request.adoc[]
 
-One showing how to make a request using HTTPIE
+Get a specific Beer by its ID using HTTPIE
 
 include::{snippets}/v1/beer-get-by-id/httpie-request.adoc[]
 
@@ -26,11 +31,11 @@ Path Parameters
 
 include::{snippets}/v1/beer-get-by-id/path-parameters.adoc[]
 
-One showing the HTTP Response
+HTTP Response example
 
 include::{snippets}/v1/beer-get-by-id/http-response.adoc[]
 
-Request Body
+Request Body example
 
 include::{snippets}/v1/beer-get-by-id/request-body.adoc[]
 
@@ -38,21 +43,21 @@ Response Fields
 
 include::{snippets}/v1/beer-get-by-id/response-fields.adoc[]
 
-Response Body
+Response Body example
 
 include::{snippets}/v1/beer-get-by-id/response-body.adoc[]
 
 == Create new beer
 
-One showing how to make a request using cURL
+Create a new Beer using cURL
 
 include::{snippets}/v1/beer-post-new/curl-request.adoc[]
 
-One showing how to make a request using HTTPIE
+Create a new Beer using HTTPIE
 
 include::{snippets}/v1/beer-post-new/httpie-request.adoc[]
 
-One showing how to make a request using HTTP
+Create a new Beer using HTTP
 
 include::{snippets}/v1/beer-post-new/http-request.adoc[]
 
@@ -60,11 +65,11 @@ Request Fields
 
 include::{snippets}/v1/beer-post-new/request-fields.adoc[]
 
-Request Body
+Request Body example
 
 include::{snippets}/v1/beer-post-new/request-body.adoc[]
 
-One showing the HTTP Response
+HTTP Response example
 
 include::{snippets}/v1/beer-post-new/http-response.adoc[]
 
@@ -74,15 +79,15 @@ include::{snippets}/v1/beer-post-new/response-body.adoc[]
 
 == Update an existing beer
 
-One showing how to make a request using cURL
+Update an existing Beer using cURL
 
 include::{snippets}/v1/beer-put/curl-request.adoc[]
 
-One showing how to make a request using HTTPIE
+Update an existing Beer using HTTPIE
 
 include::{snippets}/v1/beer-put/httpie-request.adoc[]
 
-One showing how to make a request using HTTP
+Update an existing Beer using HTTP
 
 include::{snippets}/v1/beer-put/http-request.adoc[]
 
@@ -90,14 +95,14 @@ Request Fields
 
 include::{snippets}/v1/beer-put/request-fields.adoc[]
 
-Request Body
+Request Body example
 
 include::{snippets}/v1/beer-put/request-body.adoc[]
 
-One showing the HTTP Response
+HTTP Response example
 
 include::{snippets}/v1/beer-put/http-response.adoc[]
 
-Response Body
+Response Body example
 
 include::{snippets}/v1/beer-put/response-body.adoc[]

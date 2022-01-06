@@ -1,0 +1,103 @@
+= Brewery Rest Docs
+Spring Framework Guru;
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+
+Sample Application demonstrating how to use Spring REST Docs with JUnit 5.
+
+`BeerControllerTest` makes call to very simple service and produces documentation snippets.
+
+== Get by ID
+
+One showing how to make a request using cURL
+
+include::{snippets}/v1/beer-get-by-id/curl-request.adoc[]
+
+One showing how to make a request using HTTP
+
+include::{snippets}/v1/beer-get-by-id/http-request.adoc[]
+
+One showing how to make a request using HTTPIE
+
+include::{snippets}/v1/beer-get-by-id/httpie-request.adoc[]
+
+Path Parameters
+
+include::{snippets}/v1/beer-get-by-id/path-parameters.adoc[]
+
+One showing the HTTP Response
+
+include::{snippets}/v1/beer-get-by-id/http-response.adoc[]
+
+Request Body
+
+include::{snippets}/v1/beer-get-by-id/request-body.adoc[]
+
+Response Fields
+
+include::{snippets}/v1/beer-get-by-id/response-fields.adoc[]
+
+Response Body
+
+include::{snippets}/v1/beer-get-by-id/response-body.adoc[]
+
+== Create new beer
+
+One showing how to make a request using cURL
+
+include::{snippets}/v1/beer-post-new/curl-request.adoc[]
+
+One showing how to make a request using HTTPIE
+
+include::{snippets}/v1/beer-post-new/httpie-request.adoc[]
+
+One showing how to make a request using HTTP
+
+include::{snippets}/v1/beer-post-new/http-request.adoc[]
+
+Request Fields
+
+include::{snippets}/v1/beer-post-new/request-fields.adoc[]
+
+Request Body
+
+include::{snippets}/v1/beer-post-new/request-body.adoc[]
+
+One showing the HTTP Response
+
+include::{snippets}/v1/beer-post-new/http-response.adoc[]
+
+Response Body
+
+include::{snippets}/v1/beer-post-new/response-body.adoc[]
+
+== Update an existing beer
+
+One showing how to make a request using cURL
+
+include::{snippets}/v1/beer-put/curl-request.adoc[]
+
+One showing how to make a request using HTTPIE
+
+include::{snippets}/v1/beer-put/httpie-request.adoc[]
+
+One showing how to make a request using HTTP
+
+include::{snippets}/v1/beer-put/http-request.adoc[]
+
+Request Fields
+
+include::{snippets}/v1/beer-put/request-fields.adoc[]
+
+Request Body
+
+include::{snippets}/v1/beer-put/request-body.adoc[]
+
+One showing the HTTP Response
+
+include::{snippets}/v1/beer-put/http-response.adoc[]
+
+Response Body
+
+include::{snippets}/v1/beer-put/response-body.adoc[]

@@ -11,4 +11,4 @@ Source code in this repository is to support my on line courses:
 
 # Brewery Rest Docs
 
-* [API Documentation created with Spring RestDocs (pdf)](https://github.com/adniang75/brewery-rest-docs/blob/master/src/main/asciidoc/index.html)
+* [API Documentation created with Spring RestDocs (pdf)](https://github.com/adniang75/brewery-rest-docs/blob/master/src/main/asciidoc/index.pdf)
